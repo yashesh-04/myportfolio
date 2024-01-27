@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    font-size: 25px;
+}
+
+head{
+    margin: 0px;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(7, 7, 7);
+}
+
+.top{
+    max-height: 70px;
+}
+
+#navbar{
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    height: 60px;
+    padding-left: 970px;
+}
+#navbar a{
+    color: white;
+    margin: 10px;
+    padding: 13px;
+    text-decoration: none;
+    align-self: center;
+}
+
+.mid{
+    max-width: 400px;
+    display: block;
+    white-space: nowrap;
+}
+
+
+
+.mid h1{
+    font-size: 65px;
+    font-weight: bolder;
+    color: white;
+    align-self: center;
+    margin: 370px;
+    margin-top: 200px;
+    /* overflow: hidden; */
+    width: 0px;
+    margin-bottom: -215px;
+}
+
+
+.mid h2{
+    /* font-size: 65px; */
+    font-weight: bolder;
+    color: white;
+    align-self: center;
+    margin: 370px;
+    margin-top: 200px;
+    /* overflow: hidden; */
+    width: 0px;
+}
+
+
+.main{
+    display: inline-block;
+}
+
+
+
+.main mid{
+    align-items: center;
+}
+
+.work{
+    padding: 20px;
+}
+
+.about, .contact{
+    background-color: white;
+    padding: 20px;
+}
+
+
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: rgb(250, 60, 250);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(0, 0, 0);
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #ffff;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
