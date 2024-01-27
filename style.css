@@ -135,3 +135,56 @@ input[type=text], select, textarea {
     display: table;
     clear: both;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+/* WebKit (Safari/Chrome) */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #333;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #666;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #666 #333;
+}
+
+*::-moz-scrollbar {
+    width: 10px;
+}
+
+*::-moz-scrollbar-track {
+    background: #333;
+}
+
+*::-moz-scrollbar-thumb {
+    background: #666;
+    border-radius: 10px;
+}
+
+*::-moz-scrollbar-thumb:hover {
+    background: #888;
+}
+
